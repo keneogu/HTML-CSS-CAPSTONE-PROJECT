@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+@mixin flexed1($justify, $direction) {
+	display: flex;
+	justify-content: $justify;
+	flex-direction: $direction;
+}
+
+@import "./variables";
+@import "./header";
