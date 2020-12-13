@@ -5,13 +5,35 @@
   background-size: cover;
   background-position: center;
   .inner-sec {
-	  border: 1px solid red;
+   
   }
   .another {
-	  border: 2px solid white;
-	  width: 90%;
+	  width: 95%;
 	  height: auto;
-	  margin: 0 auto;
-	  margin-top: 100px;
+    margin: 0 auto;
+    padding-top: 10%;
+    .section-search {
+      margin-top: 20px;
+      background:rgba(255,255,255, 0.7);
+      border-radius: 5px;
+      .search-form {
+        @include flexed1(center, column);
+        .search-input {
+          border: 0;
+          margin: 5px;
+        }
+        .search-button {
+          border: 0;
+          background-color: $bgColor1;
+          padding: 5px;
+          margin: 5px;
+        }
+      }
+    }
+    .section-button {
+      margin: 0 auto;
+      margin-top: 40px;
+      margin-left: 25%;
+    }
   }
 }
