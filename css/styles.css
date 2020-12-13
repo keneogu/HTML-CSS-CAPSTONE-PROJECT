@@ -63,4 +63,25 @@
     padding-top: 15px;
   }
 }
+
+.section-1 {
+  width: 100%;
+  height: 450px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/student.jpg") no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/student.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.section-1 .inner-sec {
+  border: 1px solid red;
+}
+
+.section-1 .another {
+  border: 2px solid white;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 100px;
+}
 /*# sourceMappingURL=styles.css.map */
