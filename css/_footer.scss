@@ -88,5 +88,8 @@
 				grid-gap: 20px;
 			}
 		}
+		.bottom-footer {
+			@include flexed1(space-between, row)
+		}
 	}
 }
