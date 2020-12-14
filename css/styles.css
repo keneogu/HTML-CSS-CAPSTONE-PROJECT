@@ -326,6 +326,16 @@ p {
   margin: 30px 30px 0;
 }
 
+.section-3 .inner-sec-3-3 .second-row {
+  padding-bottom: 20px;
+}
+
+@media (min-width: 1024px) {
+  .section-3 .second-row {
+    padding-bottom: 30px;
+  }
+}
+
 .footer {
   width: 100%;
   height: auto;
@@ -350,7 +360,6 @@ p {
 }
 
 .footer .foot .footer-nav {
-  width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -381,6 +390,10 @@ p {
 }
 
 .footer .foot .footer-nav .foot-list .foot-tag {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 15px;
   color: #fff;
   margin-left: 10px;
   padding-left: 10px;
@@ -400,7 +413,7 @@ p {
   margin-top: -35px;
 }
 
-.footer .foot .inner-second-foot {
+.footer .foot .second-foot {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -418,9 +431,24 @@ p {
   color: #fff;
 }
 
-.footer .foot .inner-second-foot .inner-second-foot {
+.footer .foot .second-foot .inner-second-foot {
   margin-top: 50px;
   padding-top: 20px;
+}
+
+.footer .foot .second-foot .inner-second-foot .ff1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .foot .second-foot .inner-second-foot .ff1 .ff4 {
+  background-color: #333;
+  margin-left: 5px;
+}
+
+.footer .foot .second-foot .inner-second-foot .ff1 .ff2 {
+  padding: 5px;
 }
 
 .footer .bottom-footer {
@@ -447,5 +475,33 @@ p {
   color: #808080;
   padding: 5px;
   font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .footer .foot .footer-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  .footer .foot .footer-nav .foot-list {
+    margin-top: 10px;
+  }
+  .footer .foot .second-foot {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
