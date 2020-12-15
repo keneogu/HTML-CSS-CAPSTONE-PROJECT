@@ -9,8 +9,10 @@
     padding-top: 30px;
     padding-bottom: 10px;
   }
+
   .second-sec {
     margin-top: 10px;
+
     .inner-second-sec {
       display: grid;
       align-items: center;
@@ -18,11 +20,13 @@
       padding: 0.125rem 4rem;
     }
   }
+
   @media (min-width: $tablet) {
     p {
       font-size: large;
     }
   }
+
   @media (min-width: $desktop) {
     .second-sec {
       display: grid;

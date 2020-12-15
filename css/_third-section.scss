@@ -2,14 +2,17 @@
   .inner-sec-3-1 {
     background-color: $bgColor1;
     color: $color1;
+
     .first-row {
       margin: 10px 3px;
       padding-top: 30px;
+
       .sec-btn {
         color: $bgColor1;
         margin-bottom: 20px;
       }
     }
+
     .section-image3 {
       width: 150px;
       height: 150px;
@@ -17,17 +20,21 @@
       margin: 30px 30px 0;
     }
   }
+
   .inner-sec-3-2 {
     background-color: $bgColor3;
     color: $color1;
+
     .first-row {
       margin: 10px 3px;
       padding-top: 30px;
+
       .sec-btn {
         color: $bgColor3;
         margin-bottom: 20px;
       }
     }
+
     .section-image3 {
       width: 150px;
       height: 150px;
@@ -35,23 +42,28 @@
       margin: 30px 30px 0;
     }
   }
+
   .inner-sec-3-3 {
     background-color: $bgColor2;
     color: $color1;
+
     .first-row {
       margin: 10px 3px;
       padding-top: 30px;
     }
+
     .section-image3 {
       width: 150px;
       height: 150px;
       border-radius: 50%;
       margin: 30px 30px 0;
     }
+
     .second-row {
       padding-bottom: 20px;
     }
   }
+
   @media (min-width: $desktop) {
     .second-row {
       padding-bottom: 30px;
