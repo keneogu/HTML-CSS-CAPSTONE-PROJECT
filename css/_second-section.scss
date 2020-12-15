@@ -24,11 +24,11 @@
     }
   }
   @media (min-width: $desktop) {
-	  .second-sec {
-		  display: grid;
-		  grid-template-columns: repeat(2, 1fr);
-		  grid-gap: 50px;
-		  margin-bottom: 20px;
-	  }
+    .second-sec {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 50px;
+      margin-bottom: 20px;
+    }
   }
 }

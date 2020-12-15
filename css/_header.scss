@@ -32,27 +32,27 @@
     }
   }
 
-@media (min-width: $tablet) {
-  .inner-head {
-    @include flexed1(space-between, row);
-  }
-  .right-head {
-    padding-top: 15px;
-  }
-}
-@media (min-width: $desktop) {
+  @media (min-width: $tablet) {
     .inner-head {
-		@include flexed1(space-between, row);
-		align-self: center;
-		color: $color1;
-		.right-head {
-			.head-list {
-        padding: 0 20px;
-			}
-			.hidden {
-			  display: inline-block;
-			}
-		  }
-}
-}
+      @include flexed1(space-between, row);
+    }
+    .right-head {
+      padding-top: 15px;
+    }
+  }
+  @media (min-width: $desktop) {
+    .inner-head {
+      @include flexed1(space-between, row);
+      align-self: center;
+      color: $color1;
+      .right-head {
+        .head-list {
+          padding: 0 20px;
+        }
+        .hidden {
+          display: inline-block;
+        }
+      }
+    }
+  }
 }
