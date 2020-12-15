@@ -80,6 +80,9 @@
 				margin-top: 40px;
 				.foot-list {
 					margin-top: 10px;
+					.foot-tag {
+						font-size: 13px;
+					}
 				}
 			}
 			.second-foot {
@@ -88,8 +91,15 @@
 				grid-gap: 20px;
 			}
 		}
+	}
+	@media (min-width: $desktop) {
 		.bottom-footer {
-			@include flexed1(space-between, row)
+			@include flexed1(space-between, row);
+			align-items: center;
+			padding: 1px 10px;
+			.f-p-p {
+				padding-top: 15px;
+			}
 		}
 	}
 }
