@@ -732,12 +732,12 @@ p {
   text-align: center;
 }
 
-.details-contain .d-f-p {
+.details-contain .detail-first {
   height: 70px;
   background-color: #aaa;
 }
 
-.details-contain .d-f-p .d-p {
+.details-contain .detail-first .detail-in-para {
   font-size: 25px;
   padding-top: 15px;
 }
@@ -746,7 +746,7 @@ p {
   width: 100%;
 }
 
-.details-contain .map-contain .m-h {
+.details-contain .map-contain .map-head {
   color: #de4f47;
   text-align: center;
   padding-top: 50px;
