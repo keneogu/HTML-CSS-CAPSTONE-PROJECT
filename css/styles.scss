@@ -6,6 +6,18 @@
   flex-direction: $direction;
 }
 
+.d-column {
+  display: flex;
+  flex-direction: column;
+}
+.d-center {
+  align-items: center;
+}
+.d-row {
+  display: flex;
+  justify-content: space-between;
+}
+
 @import "./variables";
 
 h1,

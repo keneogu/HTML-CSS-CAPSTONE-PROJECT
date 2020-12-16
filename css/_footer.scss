@@ -5,19 +5,11 @@
   .foot {
     width: 100%;
     background-color: $color3;
-
-    @include flexed1(center, column);
-
-    align-items: center;
-
     .footer-nav {
-      @include flexed1(center, column);
 
       margin-top: 20px;
 
       .foot-list {
-        @include flexed1(space-between, row);
-
         text-decoration: none;
         border-top: 1px solid #fff;
         border-bottom: 1px solid #fff;
@@ -25,7 +17,6 @@
         .foot-tag {
           font-family: $font-stack2;
           font-weight: 500;
-          font-style: italic;
           font-size: 10px;
           color: $color1;
           margin-left: 10px;
@@ -49,8 +40,6 @@
     }
 
     .second-foot {
-      @include flexed1(center, column);
-
       align-items: center;
       text-align: center;
       color: $color1;
@@ -61,14 +50,15 @@
 
         .ff1 {
           display: flex;
+          .ff2 {
+            background-color: black;
+            color: $color2;
+            border: 1px solid $color2;
+          }
 
           .ff4 {
             background-color: $color2;
-            margin-left: 5px;
-          }
-
-          .ff2 {
-            padding: 5px;
+            padding: 25px;
           }
         }
       }
@@ -79,10 +69,6 @@
     width: 100%;
     background-color: #2b2b2b;
     color: $bgColor3;
-
-    @include flexed1(center, column);
-
-    align-items: center;
     text-align: center;
 
     .social-links {
@@ -96,7 +82,6 @@
     .foot {
       .footer-nav {
         @include flexed1(center, row);
-
         flex-wrap: wrap;
         margin-top: 40px;
 
@@ -113,15 +98,14 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 20px;
+        align-items: flex-start;
       }
     }
   }
 
   @media (min-width: $desktop) {
     .bottom-footer {
-      @include flexed1(space-between, row);
-
-      align-items: center;
+      @include flexed1(space-around, row);
       padding: 1px 10px;
 
       .f-p-p {

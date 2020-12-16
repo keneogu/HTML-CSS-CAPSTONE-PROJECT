@@ -57,9 +57,6 @@
   }
 
   .res-img-contain {
-    @include flexed1(center, column);
-
-    align-items: center;
     margin: 50px 0;
 
     .result-image {

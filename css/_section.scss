@@ -24,7 +24,6 @@
       border-radius: 5px;
 
       .search-form {
-        @include flexed1(center, column);
 
         .search-input {
           border: 0;

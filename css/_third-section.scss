@@ -17,7 +17,7 @@
       width: 150px;
       height: 150px;
       border-radius: 50%;
-      margin: 30px 30px 0;
+      margin: 30px 10px 0;
     }
   }
 
@@ -39,7 +39,7 @@
       width: 150px;
       height: 150px;
       border-radius: 50%;
-      margin: 30px 30px 0;
+      margin: 30px 10px 0;
     }
   }
 
@@ -56,14 +56,16 @@
       width: 150px;
       height: 150px;
       border-radius: 50%;
-      margin: 30px 30px 0;
+      margin: 30px 10px 0;
     }
 
     .second-row {
       padding-bottom: 20px;
     }
   }
+  @media (min-width: $tablet) {
 
+  }
   @media (min-width: $desktop) {
     .second-row {
       padding-bottom: 30px;
