@@ -5,8 +5,8 @@
   .foot {
     width: 100%;
     background-color: $color3;
-    .footer-nav {
 
+    .footer-nav {
       margin-top: 20px;
 
       .foot-list {
@@ -50,6 +50,7 @@
 
         .ff1 {
           display: flex;
+
           .ff2 {
             background-color: black;
             color: $color2;
@@ -82,6 +83,7 @@
     .foot {
       .footer-nav {
         @include flexed1(center, row);
+
         flex-wrap: wrap;
         margin-top: 40px;
 
@@ -106,6 +108,7 @@
   @media (min-width: $desktop) {
     .bottom-footer {
       @include flexed1(space-around, row);
+
       padding: 1px 10px;
 
       .f-p-p {
