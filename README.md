@@ -24,17 +24,17 @@ This is a directory of hotels home page and a sample search results page. The we
 
 To get a local copy up and running follow these simple example steps.
 
-## On the project GitHub page, navigate to the main page of the repository [here](https://github.com/keneogu/HTML-CSS-CAPSTONE-PROJECT/tree/feature-branch)
+- On the project GitHub page, navigate to the main page of the repository [here](https://github.com/keneogu/HTML-CSS-CAPSTONE-PROJECT/tree/feature-branch)
 
-## Under the repository name, locate and click on code button
+- Under the repository name, locate and click on code button
 
-## Copy the project URL as displayed.
+- Copy the project URL as displayed.
 
-## Change the current working directory to the location where you want the cloned directory to be made.
+- Change the current working directory to the location where you want the cloned directory to be made.
 
-## Type git clone, and then paste the URL you copied
+- Type git clone, and then paste the URL you copied
 
-## Press Enter. Your local copy will be created.
+- Press Enter. Your local copy will be created.
 
 
 
