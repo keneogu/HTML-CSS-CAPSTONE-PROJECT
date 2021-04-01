@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+@mixin flexed1($justify, $direction) {
+  display: flex;
+  justify-content: $justify;
+  flex-direction: $direction;
+}
+
+.d-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.d-center {
+  align-items: center;
+}
+
+.d-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+@import "./variables";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-stack1;
+}
+
+p {
+  font-family: $font-stack2;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+@import "./header";
+@import "./section";
+@import "./second-section";
+@import "./third-section";
+@import "./footer";
+@import "./result";
+@import "./details";

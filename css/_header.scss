@@ -1,0 +1,61 @@
+.header {
+  background-color: $bgColor1;
+
+  .inner-head {
+    color: $color1;
+
+    .head-img {
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+    }
+
+    .left-head {
+      h1 {
+        font-family: $font-stack1;
+        padding-top: 5px;
+      }
+    }
+
+    .head-tag {
+      color: $color1;
+      text-decoration: none;
+    }
+
+    .right-head {
+      .head-list {
+        padding: 0 20px;
+      }
+
+      .hidden {
+        display: none;
+      }
+    }
+  }
+
+  @media (min-width: $tablet) {
+    .inner-head {
+      @include flexed1(space-between, row);
+    }
+
+    .right-head {
+      padding-top: 15px;
+    }
+  }
+
+  @media (min-width: $desktop) {
+    .inner-head {
+      color: $color1;
+
+      .right-head {
+        .head-list {
+          padding: 0 20px;
+        }
+
+        .hidden {
+          display: inline-block;
+        }
+      }
+    }
+  }
+}

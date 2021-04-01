@@ -1,0 +1,37 @@
+.section-2 {
+  width: 100%;
+  height: auto;
+  text-align: center;
+
+  .sec-head {
+    color: $bgColor1;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+
+  .second-sec {
+    margin-top: 10px;
+
+    .inner-second-sec {
+      display: grid;
+      margin-top: 20px;
+      padding: 0.125rem 4rem;
+    }
+  }
+
+  @media (min-width: $tablet) {
+    p {
+      font-size: large;
+    }
+  }
+
+  @media (min-width: $desktop) {
+    .second-sec {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 50px;
+      margin-bottom: 20px;
+    }
+  }
+}
